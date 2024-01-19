@@ -1,17 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Chakra+Petch&family=Pacifico&display=swap");
 body {
-  font-family: "Arial", sans-serif;
-  text-align: center;
-  margin: 50px;
+  background-color: #e9edc9;
 }
-
-#password {
-  margin: 20px 0;
+.generated-password {
+  font-family: "Courier New", monospace;
+  border: 1px solid #ccc;
   padding: 10px;
-  font-size: 18px;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+}
+/* Add your global styles here */
+
+/* Navbar styles */
+
+#navbar {
+  background-color: #ccd5ae;
+  font-family: "Bree Serif", serif;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive;
 }
 
-button {
-  font-size: 16px;
-  padding: 10px 20px;
-  cursor: pointer;
+/* Password Generator Section styles */
+.password-generator-section {
+  margin-top: 2rem;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.4rem;
+}
+
+/* Option Container styles */
+.option-container {
+  margin-top: 1rem;
+}
+
+/* Checkbox Container styles */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Input Group styles */
+.input-group {
+  margin-top: 1rem;
+}
+
+/* Footer styles */
+/* Add your footer styles here */
+
+/* Toast styles */
+.position-fixed {
+  z-index: 11;
+}
+
+.toast {
+  max-width: 350px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  color: #000;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Footer text styles */
+.text-body-secondary {
+  color: #6c757d;
+}
+
+/* Social media icons styles */
+.nav li a {
+  color: #6c757d;
+}
+
+/* Toast styles */
+.position-fixed {
+  z-index: 11;
+}
+
+.toast {
+  max-width: 350px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  color: #000;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+  color: #fff;
 }
