@@ -89,7 +89,7 @@ Include screenshots of the application to give users a visual overview.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
